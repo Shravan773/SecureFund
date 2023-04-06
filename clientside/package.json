@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "module":"dist/index.esm.jsx",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
