@@ -6,7 +6,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "module":"dist/index.esm.jsx",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
@@ -19,6 +18,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2",
-    "vite": "^3"
+    "vite": "^3",
+    "vite-plugin-node-polyfills": "^0.7.0"
   }
 }
